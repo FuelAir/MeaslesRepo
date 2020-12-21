@@ -6,3 +6,6 @@ Projeto realizado para a disciplina de Estrutura de Dados 2, buscando simular um
 ### 🔧 Instalação
 
 É necessária a instalação da biblioteca ssl-dev, escrevendo o seguinte comando no terminal Linux:
+
+```
+sudo apt-get install libssl-dev
