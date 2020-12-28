@@ -28,3 +28,9 @@ bin/main
 ```
 
 Após isso aguarde o "Menu" aparecer para inserir inputs.
+
+### 🛠️ Código Externo
+
+Foram utilizados os seguintes códigos fonte fornecidos pelo professor para a execução deste projeto:
+
+* [Mtwister](https://github.com/ESultanik/mtwister) - Código fonte fornecido, utilizado para executar as transações dado o seed "1234567".
