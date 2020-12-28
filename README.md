@@ -24,3 +24,7 @@ gcc main.c hashUtils.c mtwister.c -lcrypto -o bin/main
 Para a execução do código é necessário acessar a pasta onde se encontraeste repositório e o arquivo "main.c" no terminal do Linux e executar o seguinte comando:
 
 ```
+bin/main
+```
+
+Após isso aguarde o "Menu" aparecer para inserir inputs.
