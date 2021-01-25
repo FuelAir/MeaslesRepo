@@ -34,3 +34,9 @@ Após isso aguarde o "Menu" aparecer para inserir inputs.
 Foram utilizados os seguintes códigos fonte fornecidos pelo professor para a execução deste projeto:
 
 * [Mtwister](https://github.com/ESultanik/mtwister) - Código fonte fornecido, utilizado para executar as transações dado o seed "1234567".
+
+### ✒️ Autores
+
+O projeto foi desenvolvido pelos seguintes alunos da Disciplina de Estrutura de Dados 2 da UTFPR Ponta Grossa:
+
+* **Guilherme Portela Meller** - *Implantação das consultas solicitadas* - [Guilherme Portela](https://github.com/guilhermemeller)
