@@ -40,3 +40,8 @@ Foram utilizados os seguintes códigos fonte fornecidos pelo professor para a ex
 O projeto foi desenvolvido pelos seguintes alunos da Disciplina de Estrutura de Dados 2 da UTFPR Ponta Grossa:
 
 * **Guilherme Portela Meller** - *Implantação das consultas solicitadas* - [Guilherme Portela](https://github.com/guilhermemeller)
+* **Samuel Jonatas** - *Implantação do codigo de Huffman para a compressão de dados* - [Samuky](https://github.com/Samuky)
+* **Thiago Renan** - *Implantação do codigo de Huffman para a compressão de dados* - [Borealima](https://github.com/Borealima)
+* **Vinícius Cerqueira Ribeiro** - *Implantação da blockchain* - [Ranpu123](https://github.com/Ranpu123)
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/Ranpu123/BlockchainED/contributors) que participaram deste projeto.
