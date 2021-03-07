@@ -3,4 +3,6 @@
 #include <openssl/sha.h>
 #include <math.h>
 
-#include "hashUtils.h
+#include "hashUtils.h"
+
+void
