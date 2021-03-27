@@ -5,4 +5,4 @@
 
 #include "hashUtils.h"
 
-void cpyhash(unsigned char * dst, unsigned char * org
+void cpyhash(unsigned char * dst, unsigned char * org){
