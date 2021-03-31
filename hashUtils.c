@@ -6,4 +6,4 @@
 #include "hashUtils.h"
 
 void cpyhash(unsigned char * dst, unsigned char * org){
-    for(i
+    for(int i
