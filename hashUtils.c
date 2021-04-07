@@ -7,4 +7,4 @@
 
 void cpyhash(unsigned char * dst, unsigned char * org){
     for(int i = 0; i<SHA256_DIGEST_LENGTH; i++){
-        d
+        dst[i]=o
