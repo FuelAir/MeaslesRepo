@@ -10,3 +10,5 @@ void cpyhash(unsigned char * dst, unsigned char * org){
         dst[i]=org[i];
     }
 }
+
+voi
