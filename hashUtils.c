@@ -11,4 +11,4 @@ void cpyhash(unsigned char * dst, unsigned char * org){
     }
 }
 
-void printh
+void printhash(
