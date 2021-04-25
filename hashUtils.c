@@ -12,4 +12,4 @@ void cpyhash(unsigned char * dst, unsigned char * org){
 }
 
 void printhash(unsigned char * hash){
-    for(int i = 0; i<SHA256_DIG
+    for(int i = 0; i<SHA256_DIGES
