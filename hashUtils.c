@@ -13,4 +13,4 @@ void cpyhash(unsigned char * dst, unsigned char * org){
 
 void printhash(unsigned char * hash){
     for(int i = 0; i<SHA256_DIGEST_LENGTH; i++){
-       
+        printf(
