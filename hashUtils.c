@@ -16,3 +16,4 @@ void printhash(unsigned char * hash){
         printf("%02x", hash[i]);
     }
     printf("\n");
+}
