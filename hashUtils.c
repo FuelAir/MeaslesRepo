@@ -17,3 +17,5 @@ void printhash(unsigned char * hash){
     }
     printf("\n");
 }
+
+//C
