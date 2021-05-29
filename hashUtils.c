@@ -18,4 +18,4 @@ void printhash(unsigned char * hash){
     printf("\n");
 }
 
-//Carrega o vetor co
+//Carrega o vetor com 
