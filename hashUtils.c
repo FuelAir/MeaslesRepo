@@ -18,4 +18,4 @@ void printhash(unsigned char * hash){
     printf("\n");
 }
 
-//Carrega o vetor com os valore
+//Carrega o vetor com os valores d
