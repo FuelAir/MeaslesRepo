@@ -18,4 +18,4 @@ void printhash(unsigned char * hash){
     printf("\n");
 }
 
-//Carrega o vetor com os valores de cada carteira da blo
+//Carrega o vetor com os valores de cada carteira da blockch
