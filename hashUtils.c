@@ -20,4 +20,4 @@ void printhash(unsigned char * hash){
 
 //Carrega o vetor com os valores de cada carteira da blockchain
 void loadWallet(int * wallet){
-    FILE * 
+    FILE * pFi
