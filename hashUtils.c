@@ -22,3 +22,4 @@ void printhash(unsigned char * hash){
 void loadWallet(int * wallet){
     FILE * pFile = fopen("data/blockchain.dat","rb");
     fseek(pFile, -1024L, SEEK_END);
+    f
