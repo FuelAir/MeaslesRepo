@@ -24,3 +24,4 @@ void loadWallet(int * wallet){
     fseek(pFile, -1024L, SEEK_END);
     fread(wallet, sizeof(int), 256, pFile);
     fclose(pFile);
+}
