@@ -25,3 +25,5 @@ void loadWallet(int * wallet){
     fread(wallet, sizeof(int), 256, pFile);
     fclose(pFile);
 }
+
+/
