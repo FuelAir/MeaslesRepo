@@ -26,4 +26,4 @@ void loadWallet(int * wallet){
     fclose(pFile);
 }
 
-//Carrega o 
+//Carrega o bloco c
