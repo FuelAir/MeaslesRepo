@@ -26,4 +26,4 @@ void loadWallet(int * wallet){
     fclose(pFile);
 }
 
-//Carrega o bloco com o indic
+//Carrega o bloco com o indice inf
