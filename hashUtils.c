@@ -27,3 +27,4 @@ void loadWallet(int * wallet){
 }
 
 //Carrega o bloco com o indice informado
+Bloco
