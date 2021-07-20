@@ -28,4 +28,4 @@ void loadWallet(int * wallet){
 
 //Carrega o bloco com o indice informado
 BlocoMinerado searchBlock(int index){
-    //Retorna 
+    //Retorna o bloco
