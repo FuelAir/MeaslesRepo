@@ -31,4 +31,4 @@ BlocoMinerado searchBlock(int index){
     //Retorna o bloco com os dados da caretira.
     //Se a busca não encontrar nenhum valor, retorna um bloco com valor -1 armazenado.
 
-    B
+    Bloco
