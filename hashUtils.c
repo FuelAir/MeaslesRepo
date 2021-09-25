@@ -32,4 +32,4 @@ BlocoMinerado searchBlock(int index){
     //Se a busca não encontrar nenhum valor, retorna um bloco com valor -1 armazenado.
 
     BlocoMinerado aux;
-    aux.bloco
+    aux.bloco.num
