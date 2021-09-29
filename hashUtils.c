@@ -34,4 +34,4 @@ BlocoMinerado searchBlock(int index){
     BlocoMinerado aux;
     aux.bloco.numero = -1;
 
-    F
+    FILE
