@@ -35,4 +35,5 @@ BlocoMinerado searchBlock(int index){
     aux.bloco.numero = -1;
 
     FILE * pFile = fopen("data/blockchain.dat","rb");
-    fseek(pFile, -1024L, SEEK_E
+    fseek(pFile, -1024L, SEEK_END);
+  
