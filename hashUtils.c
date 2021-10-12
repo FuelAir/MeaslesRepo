@@ -36,4 +36,4 @@ BlocoMinerado searchBlock(int index){
 
     FILE * pFile = fopen("data/blockchain.dat","rb");
     fseek(pFile, -1024L, SEEK_END);
-    int 
+    int sz = 
