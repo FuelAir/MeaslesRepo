@@ -38,4 +38,5 @@ BlocoMinerado searchBlock(int index){
     fseek(pFile, -1024L, SEEK_END);
     int sz = ftell(pFile)/sizeof(BlocoMinerado);
     if(index > 0 && index <=sz){
-        fseek(pFile, (index-1)*sizeof(BlocoMinerado), SEEK
+        fseek(pFile, (index-1)*sizeof(BlocoMinerado), SEEK_SET);
+   
