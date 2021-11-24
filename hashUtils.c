@@ -40,4 +40,5 @@ BlocoMinerado searchBlock(int index){
     if(index > 0 && index <=sz){
         fseek(pFile, (index-1)*sizeof(BlocoMinerado), SEEK_SET);
         fread(&aux, sizeof(BlocoMinerado), 1, pFile);  
-    }els
+    }else{
+   
