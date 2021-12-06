@@ -41,4 +41,4 @@ BlocoMinerado searchBlock(int index){
         fseek(pFile, (index-1)*sizeof(BlocoMinerado), SEEK_SET);
         fread(&aux, sizeof(BlocoMinerado), 1, pFile);  
     }else{
-        printf("\nERRO: Indice inválido: Valor deve ser maior que 0, e me
+        printf("\nERRO: Indice inválido: Valor deve ser maior que 0, e menor 
