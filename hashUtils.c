@@ -42,4 +42,4 @@ BlocoMinerado searchBlock(int index){
         fread(&aux, sizeof(BlocoMinerado), 1, pFile);  
     }else{
         printf("\nERRO: Indice inválido: Valor deve ser maior que 0, e menor ou igual a %d \n",sz);
-  
+    }
