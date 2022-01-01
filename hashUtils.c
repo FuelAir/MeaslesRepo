@@ -47,4 +47,4 @@ BlocoMinerado searchBlock(int index){
     return aux;
 }
 
-//MergeSort
+//MergeSort par
