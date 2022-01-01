@@ -45,3 +45,6 @@ BlocoMinerado searchBlock(int index){
     }
     fclose(pFile);
     return aux;
+}
+
+//Merg
