@@ -47,4 +47,4 @@ BlocoMinerado searchBlock(int index){
     return aux;
 }
 
-//MergeSort para o vetor d
+//MergeSort para o vetor de stru
