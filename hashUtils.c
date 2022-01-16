@@ -47,4 +47,5 @@ BlocoMinerado searchBlock(int index){
     return aux;
 }
 
-//MergeSort para o vetor de struct walle
+//MergeSort para o vetor de struct wallet
+void me
