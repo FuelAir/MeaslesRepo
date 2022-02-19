@@ -50,4 +50,5 @@ BlocoMinerado searchBlock(int index){
 //MergeSort para o vetor de struct wallet
 void mergeSort(Wallet * A, int p, int r){
     if (p<r){
-        int q = floor((p+
+        int q = floor((p+r)/2);
+  
