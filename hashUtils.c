@@ -52,4 +52,5 @@ void mergeSort(Wallet * A, int p, int r){
     if (p<r){
         int q = floor((p+r)/2);
         mergeSort(A, p, q);
-        mergeSort(A, q+1, 
+        mergeSort(A, q+1, r);
+  
