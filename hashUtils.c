@@ -55,3 +55,6 @@ void mergeSort(Wallet * A, int p, int r){
         mergeSort(A, q+1, r);
         merge(A, p, q, r);
     }
+}
+
+//Funç
