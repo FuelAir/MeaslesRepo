@@ -57,4 +57,4 @@ void mergeSort(Wallet * A, int p, int r){
     }
 }
 
-//Função p
+//Função para
