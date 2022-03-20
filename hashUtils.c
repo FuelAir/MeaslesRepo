@@ -57,4 +57,4 @@ void mergeSort(Wallet * A, int p, int r){
     }
 }
 
-//Função para juntar ordenando o 
+//Função para juntar ordenando o vetore
