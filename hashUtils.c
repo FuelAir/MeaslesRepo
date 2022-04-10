@@ -59,4 +59,4 @@ void mergeSort(Wallet * A, int p, int r){
 
 //Função para juntar ordenando o vetores.
 void merge(Wallet * A, int p, int q, int r){
-    int mergeSize = 
+    int mergeSize = r 
