@@ -61,4 +61,5 @@ void mergeSort(Wallet * A, int p, int r){
 void merge(Wallet * A, int p, int q, int r){
     int mergeSize = r - p + 1;
     int end1 = 0, end2 = 0;
-    int leftPos
+    int leftPos = p;
+ 
