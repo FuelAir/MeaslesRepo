@@ -62,4 +62,5 @@ void merge(Wallet * A, int p, int q, int r){
     int mergeSize = r - p + 1;
     int end1 = 0, end2 = 0;
     int leftPos = p;
-    int rightPos = 
+    int rightPos = q+1;
+  
