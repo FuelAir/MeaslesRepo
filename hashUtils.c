@@ -63,4 +63,4 @@ void merge(Wallet * A, int p, int q, int r){
     int end1 = 0, end2 = 0;
     int leftPos = p;
     int rightPos = q+1;
-    Wallet * temp = (Walle
+    Wallet * temp = (Wallet *)
