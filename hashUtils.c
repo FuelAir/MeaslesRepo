@@ -64,3 +64,5 @@ void merge(Wallet * A, int p, int q, int r){
     int leftPos = p;
     int rightPos = q+1;
     Wallet * temp = (Wallet *)malloc(mergeSize*sizeof(Wallet));
+
+    
