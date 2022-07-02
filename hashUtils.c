@@ -68,4 +68,4 @@ void merge(Wallet * A, int p, int q, int r){
     if(temp != NULL){
         for(int i = 0; i<mergeSize; i++){
             if(!end1 && !end2){
-                temp[i] =
+                temp[i] = (A
