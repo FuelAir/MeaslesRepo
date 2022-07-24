@@ -69,4 +69,4 @@ void merge(Wallet * A, int p, int q, int r){
         for(int i = 0; i<mergeSize; i++){
             if(!end1 && !end2){
                 temp[i] = (A[leftPos].valor < A[rightPos].valor)? A[leftPos++]:A[rightPos++];
-                i
+                if(
