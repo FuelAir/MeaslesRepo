@@ -72,4 +72,4 @@ void merge(Wallet * A, int p, int q, int r){
                 if(leftPos>q){
                     end1=1;
                 }
- 
+       
