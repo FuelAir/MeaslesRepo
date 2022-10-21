@@ -75,4 +75,4 @@ void merge(Wallet * A, int p, int q, int r){
                 if(rightPos>r){
                     end2=1;
                 }
-            
+            }els
