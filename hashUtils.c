@@ -79,4 +79,5 @@ void merge(Wallet * A, int p, int q, int r){
                 temp[i]= (!end1)? A[leftPos++]:A[rightPos++];
             }
         }
-        int j = 0,k = 
+        int j = 0,k = 0;
+  
