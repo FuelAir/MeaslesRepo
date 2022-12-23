@@ -80,4 +80,4 @@ void merge(Wallet * A, int p, int q, int r){
             }
         }
         int j = 0,k = 0;
-        for(j = 
+        for(j = 0, k 
