@@ -83,4 +83,6 @@ void merge(Wallet * A, int p, int q, int r){
         for(j = 0, k = p; j < mergeSize; j++, k++){
             A[k]=temp[j];
         }
-   
+    }
+
+ 
