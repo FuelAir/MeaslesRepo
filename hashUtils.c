@@ -87,4 +87,6 @@ void merge(Wallet * A, int p, int q, int r){
 
     free(temp);
 
-    ret
+    return;
+
+}
