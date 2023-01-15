@@ -7,3 +7,11 @@ typedef struct BlocoNaoMinerado{
   unsigned char data[184];//nao alterar. Deve ser inicializado com zeros.
   unsigned char hashAnterior[SHA256_DIGEST_LENGTH]; //32
 } BlocoNaoMinerado;
+
+typedef struct BlocoMinerado{
+  BlocoNaoMinerado bloco;
+  unsigned char hash[SHA256_DIGEST_LENGTH];
+}BlocoMinerado;
+
+typedef struct Wallet{
+  int valor;
