@@ -25,3 +25,5 @@ void loadWallet(int * wallet);
 
 void mergeSort(Wallet * A, int p, int r);
 void merge(Wallet * A, int p, int q, int r);
+
+BlocoMinerado searchBlock(int index);
