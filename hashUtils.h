@@ -15,3 +15,7 @@ typedef struct BlocoMinerado{
 
 typedef struct Wallet{
   int valor;
+  unsigned char endereco;
+}Wallet;
+
+void cpyhash(unsigned char * dst, unsigned char * org);
