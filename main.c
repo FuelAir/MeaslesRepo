@@ -31,3 +31,11 @@ void generateBlockData(unsigned char * data){
             wallet[(unsigned long)endOrigem] -= (unsigned long)qtdBitcoin; 
         }
         wallet[(unsigned long)endDst] += (unsigned long)qtdBitcoin;
+        
+    }
+    for (int i = qtdTransacoes; i<184; i++){
+        data[i] = 0;
+    }
+}
+
+//Calcula o nonce correto para o hash
