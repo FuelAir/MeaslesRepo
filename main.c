@@ -39,3 +39,7 @@ void generateBlockData(unsigned char * data){
 }
 
 //Calcula o nonce correto para o hash
+void mineBlock(BlocoNaoMinerado * blocoAMinerar, unsigned char * h){
+    unsigned char hash[SHA256_DIGEST_LENGTH];
+    do{
+        blocoAMinerar->nonce += 1;
