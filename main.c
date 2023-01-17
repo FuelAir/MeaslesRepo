@@ -20,3 +20,7 @@ void generateBlockData(unsigned char * data){
         unsigned char endOrigem = (unsigned char) genRandLong(&randNumber) % 256;
         unsigned char endDst = (unsigned char) genRandLong(&randNumber) % 256;
         unsigned char qtdBitcoin = (unsigned char) (1 + (genRandLong(&randNumber) % 50));
+
+        data[i-3] = endOrigem;
+        data[i-2] = endDst;
+        data[i-1] = qtdBitcoin;
