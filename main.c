@@ -43,3 +43,10 @@ void mineBlock(BlocoNaoMinerado * blocoAMinerar, unsigned char * h){
     unsigned char hash[SHA256_DIGEST_LENGTH];
     do{
         blocoAMinerar->nonce += 1;
+
+        //Gera o hash do bloco.
+        SHA256((unsigned char *)blocoAMinerar, sizeof(BlocoNaoMinerado),hash);
+
+    //Verifica se os 3 primeiras posições do vetor são 0.
+    }while(((unsigned long)hash[0] + (unsigned long)hash[1] + (unsigned long)hash[2] != 0));
+    cpyhash(h,hash);
