@@ -24,3 +24,8 @@ void generateBlockData(unsigned char * data){
         data[i-3] = endOrigem;
         data[i-2] = endDst;
         data[i-1] = qtdBitcoin;
+
+        if((unsigned long) qtdBitcoin >= wallet[(unsigned long)endOrigem]){
+            wallet[(unsigned long)endOrigem] = 0;
+        }else{
+            wallet[(unsigned long)endOrigem] -= (unsigned long)qtdBitcoin; 
