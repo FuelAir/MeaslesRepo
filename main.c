@@ -50,3 +50,11 @@ void mineBlock(BlocoNaoMinerado * blocoAMinerar, unsigned char * h){
     //Verifica se os 3 primeiras posições do vetor são 0.
     }while(((unsigned long)hash[0] + (unsigned long)hash[1] + (unsigned long)hash[2] != 0));
     cpyhash(h,hash);
+}
+
+//Carrega todos os dados no bloco
+void createBlock(BlocoNaoMinerado * blocoAMinerar, int i, unsigned char * hash){
+    blocoAMinerar->numero = i;
+    blocoAMinerar->nonce = -1;
+    cpyhash(blocoAMinerar->hashAnterior,hash);
+    generateBlockData(blocoAMinerar->data);
