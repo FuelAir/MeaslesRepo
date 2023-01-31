@@ -58,3 +58,7 @@ void createBlock(BlocoNaoMinerado * blocoAMinerar, int i, unsigned char * hash){
     blocoAMinerar->nonce = -1;
     cpyhash(blocoAMinerar->hashAnterior,hash);
     generateBlockData(blocoAMinerar->data);
+    mineBlock(blocoAMinerar,hash);
+}
+
+void generateBlocks(int num_blocks){
