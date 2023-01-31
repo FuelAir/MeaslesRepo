@@ -62,3 +62,6 @@ void createBlock(BlocoNaoMinerado * blocoAMinerar, int i, unsigned char * hash){
 }
 
 void generateBlocks(int num_blocks){
+    
+    //Ultima Hash aceita gerada. No genesis o hash anterior é 0000...
+    unsigned char hash [SHA256_DIGEST_LENGTH] = {0};
