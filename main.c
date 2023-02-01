@@ -65,3 +65,6 @@ void generateBlocks(int num_blocks){
     
     //Ultima Hash aceita gerada. No genesis o hash anterior é 0000...
     unsigned char hash [SHA256_DIGEST_LENGTH] = {0};
+
+    //Zerar as carteiras antes de começar um novo blockchain
+    for (int i = 0; i<256; i++){
