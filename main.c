@@ -73,3 +73,6 @@ void generateBlocks(int num_blocks){
 
     BlocoMinerado buffer[BUFFER_SIZE];
     int cont = 0;
+    
+    //Arquivo Binário com os dados da blockchain
+    FILE * pFile = fopen("data/blockchain.dat","wb");
