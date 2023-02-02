@@ -69,3 +69,7 @@ void generateBlocks(int num_blocks){
     //Zerar as carteiras antes de começar um novo blockchain
     for (int i = 0; i<256; i++){
         wallet[i] = 0;
+    }
+
+    BlocoMinerado buffer[BUFFER_SIZE];
+    int cont = 0;
