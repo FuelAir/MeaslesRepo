@@ -77,3 +77,7 @@ void generateBlocks(int num_blocks){
     //Arquivo Binário com os dados da blockchain
     FILE * pFile = fopen("data/blockchain.dat","wb");
     FILE * pFileText = fopen("data/blockchainText.txt","wt");
+
+    for(int i = 1; i<=num_blocks; i++){
+
+        BlocoNaoMinerado blocoAMinerar;
