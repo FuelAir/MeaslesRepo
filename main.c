@@ -81,3 +81,5 @@ void generateBlocks(int num_blocks){
     for(int i = 1; i<=num_blocks; i++){
 
         BlocoNaoMinerado blocoAMinerar;
+        //Gera os dados e minera o bloco.
+        createBlock(&blocoAMinerar,i,hash);
