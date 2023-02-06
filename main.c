@@ -83,3 +83,10 @@ void generateBlocks(int num_blocks){
         BlocoNaoMinerado blocoAMinerar;
         //Gera os dados e minera o bloco.
         createBlock(&blocoAMinerar,i,hash);
+        
+        //Carrega o buffer 4096||512 bytes com o bloco.
+        buffer[cont].bloco = blocoAMinerar;
+        cpyhash(buffer[cont].hash, hash);
+        
+        //printhash(blocoAMinerar.hashAnterior);
+        printhash(hash);
