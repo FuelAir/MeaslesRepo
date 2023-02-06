@@ -90,3 +90,7 @@ void generateBlocks(int num_blocks){
         
         //printhash(blocoAMinerar.hashAnterior);
         printhash(hash);
+
+        //Se a quantidade de blocos for 16||2, então grava no arquivo.
+        if (BUFFER_SIZE-1 == cont){
+            fwrite(buffer,sizeof(BlocoMinerado),BUFFER_SIZE,pFile);
