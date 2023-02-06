@@ -96,3 +96,8 @@ void generateBlocks(int num_blocks){
             fwrite(buffer,sizeof(BlocoMinerado),BUFFER_SIZE,pFile);
             fwrite(buffer,sizeof(BlocoMinerado),BUFFER_SIZE,pFileText);
             cont = 0;
+        }else{
+            cont ++;
+        }
+    }
+    //Descarrega o buffer se tiver algo antes de finalizar.
