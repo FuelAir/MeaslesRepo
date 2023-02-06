@@ -101,3 +101,8 @@ void generateBlocks(int num_blocks){
         }
     }
     //Descarrega o buffer se tiver algo antes de finalizar.
+    if(cont){
+        fwrite(buffer,sizeof(BlocoMinerado),cont,pFile);
+        fwrite(buffer,sizeof(BlocoMinerado),cont,pFileText);
+        cont = 0;
+    }
