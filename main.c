@@ -112,3 +112,8 @@ void generateBlocks(int num_blocks){
     fclose(pFileText);
     printf("\n");
     printf("BlockChain Gerada com Sucesso!");
+    printf("\n");
+}
+
+void menu(Wallet * w){
+    int aux, z;
