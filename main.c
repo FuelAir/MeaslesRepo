@@ -106,3 +106,9 @@ void generateBlocks(int num_blocks){
         fwrite(buffer,sizeof(BlocoMinerado),cont,pFileText);
         cont = 0;
     }
+
+    fwrite(wallet,sizeof(int),256,pFile);//Grava as carteiras
+    fclose(pFile);
+    fclose(pFileText);
+    printf("\n");
+    printf("BlockChain Gerada com Sucesso!");
