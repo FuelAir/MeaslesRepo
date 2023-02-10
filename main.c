@@ -117,3 +117,6 @@ void generateBlocks(int num_blocks){
 
 void menu(Wallet * w){
     int aux, z;
+
+    do{
+        printf("\n\t\t||Consultas||");
