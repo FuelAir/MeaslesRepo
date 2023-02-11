@@ -120,3 +120,12 @@ void menu(Wallet * w){
 
     do{
         printf("\n\t\t||Consultas||");
+        printf("\n1-Imprimir dados de um bloco.");
+        printf("\n2-Mostrar a quantidade de Bitcoins de um endereço.");
+        printf("\n3-Mostrar a carteira com mais Bitcoins.");
+        printf("\n4-Listar endereços em ordem crescente (Relativa a quantidade de bitcoins).");
+        printf("\n5-Sair\n");
+
+        scanf("%d", &z);
+
+        switch(z){
