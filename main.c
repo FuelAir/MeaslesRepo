@@ -134,3 +134,9 @@ void menu(Wallet * w){
                 do{
                     printf("\nInsira o bloco desejado:\n");
                     scanf("%d", &aux);
+                    blocoaux = searchBlock(aux);
+                }while (blocoaux.bloco.numero == -1);
+                printf("\nHash: ");
+                printhash(blocoaux.hash);
+                printf("Numero: %d\nNonce: %d\nDados: ", blocoaux.bloco.numero, blocoaux.bloco.nonce);
+                for (int i = 3; i<184; i+=3){
