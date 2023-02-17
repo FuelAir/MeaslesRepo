@@ -129,3 +129,8 @@ void menu(Wallet * w){
         scanf("%d", &z);
 
         switch(z){
+            case 1:;
+                BlocoMinerado blocoaux;
+                do{
+                    printf("\nInsira o bloco desejado:\n");
+                    scanf("%d", &aux);
