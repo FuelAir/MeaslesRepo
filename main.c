@@ -140,3 +140,10 @@ void menu(Wallet * w){
                 printhash(blocoaux.hash);
                 printf("Numero: %d\nNonce: %d\nDados: ", blocoaux.bloco.numero, blocoaux.bloco.nonce);
                 for (int i = 3; i<184; i+=3){
+                        printf("%d ",blocoaux.bloco.data[i-3]);
+                        printf("%d ",blocoaux.bloco.data[i-2]);
+                        printf("%d ",blocoaux.bloco.data[i-1]);
+                }
+                printf("\nHash Anterior: ");
+                printhash(blocoaux.bloco.hashAnterior);
+            break;
