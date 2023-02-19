@@ -147,3 +147,6 @@ void menu(Wallet * w){
                 printf("\nHash Anterior: ");
                 printhash(blocoaux.bloco.hashAnterior);
             break;
+
+            case 2:
+                do{
