@@ -154,3 +154,6 @@ void menu(Wallet * w){
                     scanf("%d", &aux);
                 }while (aux>255 || aux<0);
                 printf("\nO valor em Bitcoins do endereço %d eh de BTC$:%d,00 \n", aux, wallet[aux]);
+            break;
+            
+            case 3:
