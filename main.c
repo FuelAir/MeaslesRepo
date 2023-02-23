@@ -171,3 +171,8 @@ void menu(Wallet * w){
                 printf("\nOpção Invalida! \n");
             break;
         }
+    }while (z!=5);
+
+    return;
+
+}
