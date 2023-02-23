@@ -164,3 +164,7 @@ void menu(Wallet * w){
                 printf("\nQuantidades de BTC ordenadas de menor para maior: \n");
                 for (int i = 0; i<256; i++){
                     printf("|Wallet: %03d = BTC$:%d,00|\n", w[i].endereco, w[i].valor);
+                }
+            break;
+            case 5: break;
+            default:
