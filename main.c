@@ -157,3 +157,10 @@ void menu(Wallet * w){
             break;
             
             case 3:
+                printf("\nA carteira com mais bitcoins eh a carteira de numero %d, que contém: BTC:%d,00\n", w[255].endereco, w[255].valor);
+            break;
+
+            case 4:
+                printf("\nQuantidades de BTC ordenadas de menor para maior: \n");
+                for (int i = 0; i<256; i++){
+                    printf("|Wallet: %03d = BTC$:%d,00|\n", w[i].endereco, w[i].valor);
