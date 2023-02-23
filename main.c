@@ -168,3 +168,6 @@ void menu(Wallet * w){
             break;
             case 5: break;
             default:
+                printf("\nOpção Invalida! \n");
+            break;
+        }
