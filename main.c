@@ -180,3 +180,8 @@ void menu(Wallet * w){
 //Carrega a struct wallet e ordena.
 void carregaDadosArquivo(Wallet * w){
     loadWallet(wallet);
+
+    for(int i = 0; i<256; i++){
+        w[i].endereco =(unsigned char)i;
+        w[i].valor = wallet[i];
+    }
