@@ -176,3 +176,7 @@ void menu(Wallet * w){
     return;
 
 }
+
+//Carrega a struct wallet e ordena.
+void carregaDadosArquivo(Wallet * w){
+    loadWallet(wallet);
