@@ -188,3 +188,7 @@ void carregaDadosArquivo(Wallet * w){
 
     mergeSort(w,0,255);
 }
+
+int main(){
+    int aux,z;
+    randNumber = seedRand(1234567);
