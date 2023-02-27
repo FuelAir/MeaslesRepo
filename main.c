@@ -192,3 +192,9 @@ void carregaDadosArquivo(Wallet * w){
 int main(){
     int aux,z;
     randNumber = seedRand(1234567);
+    Wallet w[256];
+
+    do{
+
+        printf("\n\t\t||Menu||");
+        printf("\n1-Gerar nova Blockchain");
