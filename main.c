@@ -185,3 +185,6 @@ void carregaDadosArquivo(Wallet * w){
         w[i].endereco =(unsigned char)i;
         w[i].valor = wallet[i];
     }
+
+    mergeSort(w,0,255);
+}
