@@ -198,3 +198,4 @@ int main(){
 
         printf("\n\t\t||Menu||");
         printf("\n1-Gerar nova Blockchain");
+        printf("\n2-Consultas na Blockchain");
