@@ -220,3 +220,9 @@ int main(){
                 printf("\nOpção Invalida! \n");
             break;
         }
+
+    }while(aux!=3);
+    
+
+    return 0;
+}
