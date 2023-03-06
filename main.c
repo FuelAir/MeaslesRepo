@@ -214,3 +214,9 @@ int main(){
             case 2:
             carregaDadosArquivo(w);
             menu(w);
+            break;
+            case 3: break;
+            default:
+                printf("\nOpção Invalida! \n");
+            break;
+        }
