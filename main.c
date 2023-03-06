@@ -202,3 +202,8 @@ int main(){
         printf("\n3-Sair\n");
 
         scanf("%d", &aux);
+
+        switch(aux){
+            case 1:
+                printf("\n1-Quantos Blocos deseja gerar?\n");
+                scanf("%d", &z);
