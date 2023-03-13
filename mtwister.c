@@ -13,3 +13,5 @@
 #define LOWER_MASK		0x7fffffff
 #define TEMPERING_MASK_B	0x9d2c5680
 #define TEMPERING_MASK_C	0xefc60000
+
+#include "mtwister.h"
