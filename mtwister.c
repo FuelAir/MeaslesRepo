@@ -31,3 +31,6 @@ inline static void m_seedRand(MTRand* rand, unsigned long seed) {
 * Creates a new random number generator from a given seed.
 */
 MTRand seedRand(unsigned long seed) {
+  MTRand rand;
+  m_seedRand(&rand, seed);
+  return rand;
