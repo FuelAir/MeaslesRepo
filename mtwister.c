@@ -34,3 +34,4 @@ MTRand seedRand(unsigned long seed) {
   MTRand rand;
   m_seedRand(&rand, seed);
   return rand;
+}
