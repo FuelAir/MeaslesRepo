@@ -35,3 +35,7 @@ MTRand seedRand(unsigned long seed) {
   m_seedRand(&rand, seed);
   return rand;
 }
+
+/**
+ * Generates a pseudo-randomly generated long.
+ */
