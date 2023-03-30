@@ -44,3 +44,6 @@ unsigned long genRandLong(MTRand* rand) {
   unsigned long y;
   static unsigned long mag[2] = {0x0, 0x9908b0df}; /* mag[x] = x * 0x9908b0df for x = 0,1 */
   if(rand->index >= STATE_VECTOR_LENGTH || rand->index < 0) {
+    /* generate STATE_VECTOR_LENGTH words at a time */
+    int kk;
+    if(rand->index >= STATE_VECTOR_LENGTH+1 || rand->index < 0) {
