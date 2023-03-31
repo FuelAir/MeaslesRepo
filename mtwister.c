@@ -65,3 +65,10 @@ unsigned long genRandLong(MTRand* rand) {
   y ^= (y >> 11);
   y ^= (y << 7) & TEMPERING_MASK_B;
   y ^= (y << 15) & TEMPERING_MASK_C;
+  y ^= (y >> 18);
+  return y;
+}
+
+/**
+ * Generates a pseudo-randomly generated double in the range [0..1].
+ */
