@@ -62,3 +62,6 @@ unsigned long genRandLong(MTRand* rand) {
     rand->index = 0;
   }
   y = rand->mt[rand->index++];
+  y ^= (y >> 11);
+  y ^= (y << 7) & TEMPERING_MASK_B;
+  y ^= (y << 15) & TEMPERING_MASK_C;
