@@ -59,3 +59,6 @@ unsigned long genRandLong(MTRand* rand) {
     }
     y = (rand->mt[STATE_VECTOR_LENGTH-1] & UPPER_MASK) | (rand->mt[0] & LOWER_MASK);
     rand->mt[STATE_VECTOR_LENGTH-1] = rand->mt[STATE_VECTOR_M-1] ^ (y >> 1) ^ mag[y & 0x1];
+    rand->index = 0;
+  }
+  y = rand->mt[rand->index++];
